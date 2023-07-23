@@ -131,15 +131,16 @@ color: #344054;
       display: flex;
       flex-direction: column;
       align-items: center;
-      
-      margin-top: 88px;
-      margin-left: 165px;
+      max-width: 735px;
+      margin: 15%;
+      padding: 0;
       
    }
    .navbar-brand > h6 {
       margin-top: 12px;
    }
    .container-sign {
-    margin-top: 56px;
+      
+      margin: 50px;
    }
 }
