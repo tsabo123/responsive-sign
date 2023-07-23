@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Inter-Regular" ;
+    src: url(./fonts/Inter-Regular.ttf);
+  }
+  @font-face {
+    font-family: "Inter-Bold" ;
+    src: url(./fonts/Inter-Bold.ttf);
+  }
+  @font-face {
+   font-family: "Inter-Medium" ;
+   src: url(./fonts/Inter-Medium.ttf);
+ }
+  
+  
+  body {
+      margin: 0;
+      background-color: #FCFDFF;
+      overflow-x: auto;
+      overflow-y: auto;
+    }
+.navbar-brand {
+ margin:20px;
+}
+ .container-sign {
+    max-width: 360px;
+    margin-inline:auto ;
+    margin-top: 150px;
+
+ }
+ .btn {
+    
+    padding: 12px 154px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 360px;
+    height: 44px;
+
+ }
+ .icon {
+    position: absolute;
+    margin-top: -33px;
+    margin-left: 320px;
+ }
+ .iconcontainer {
+    position: relative;
+ }
+ 
+ .title {
+    color: #344054;
+    /* Headline */
+    font-family: "Inter-Bold" ;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+ }
+ .text1 {
+    color: #667085;
+    /* Text 1 */
+    font-family: "Inter-Regular" ;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+ }
+ .form-control {
+    height: 44px;
+
+ }
+ .last {
+    color: var(--secondary-color, #344054);
+text-align: center;
+font-family: "Inter-Regular" ;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+ }
+ .colored {
+    color: var(--primary-color, #5429FF);
+    font-family: "Inter-Medium" ;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+
+ }
+ .footer {
+    margin-top: 146px;
+    margin-left: 40px;
+    color: var(--accent-2, #667085);
+    font-family: "Inter-Regular" ;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: 20px; /* 125% */
+ }
+ 
+ .title2 {
+  
+font-family: "Inter-Medium";
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+ }
+ .last > h6 {
+   font-family: "Inter-Regular" ;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: #344054;
+ }
+
+@media screen  and (max-width:764px){
+   .col-md-7   {
+      display: none;
+      
+   }
+   .footer {
+      display: none;
+   }
+   .navbar-brand {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      margin-top: 88px;
+      margin-left: 165px;
+      
+   }
+   .navbar-brand > h6 {
+      margin-top: 12px;
+   }
+   .container-sign {
+    margin-top: 56px;
+   }
+}
