@@ -10,7 +10,10 @@
    font-family: "Inter-Medium" ;
    src: url(./fonts/Inter-Medium.ttf);
  }
-  
+  *{
+   margin: 0;
+   box-sizing: border-box;
+  }
   
   body {
       margin: 0;
@@ -41,6 +44,15 @@
     position: absolute;
     margin-top: -33px;
     margin-left: 320px;
+
+ }
+
+
+ .inputcont  {
+   position: relative;
+   width: 100%;
+   border-radius: 8px;
+   border: 1px solid #D0D5DD;
  }
  .iconcontainer {
     position: relative;
@@ -68,6 +80,14 @@
  }
  .form-control {
     height: 44px;
+    border-style: none;
+    width: 360px;
+
+ }
+ .input {
+   border-radius: 0;
+   outline: none;
+   display: block;
 
  }
  .last {
@@ -119,7 +139,7 @@ text-align: center;
 color: #344054;
  }
 
-@media screen  and (max-width:764px){
+@media screen  and (max-width:768px){
    .col-md-7   {
       display: none;
       
@@ -129,10 +149,12 @@ color: #344054;
    }
    .navbar-brand {
       display: flex;
+      justify-content: center;
       flex-direction: column;
-      align-items: center;
+      
       max-width: 735px;
-      margin: 15%;
+      
+     align-items: center;
       padding: 0;
       
    }
@@ -143,4 +165,33 @@ color: #344054;
       
       margin: 50px;
    }
+   .inputcont  {
+      position: relative;
+      width: 327px;
+      border-radius: 8px;
+      border: 1px solid #D0D5DD;
+    }
+    .icon {
+      position: absolute;
+    margin-top: -33px;
+    margin-left: 280px;
+
+    }
+    .main {
+      display: flex;
+      justify-content: center;
+      
+    }
+    .logo {
+      display: flex;
+      justify-content:center ;
+      align-items: center;
+      margin-inline: 140px;
+    }
+    .btn {
+      max-width: 327px;
+
+    }
+    
+
 }
